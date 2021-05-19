@@ -1,0 +1,96 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "title": "Europa",
+      "subtitle": "O continente mais antigo do mundo",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "countries": 50,
+      "languages": 60,
+      "cidades100": [
+        {
+          "id": 1,
+          "name": "Londres",
+          "country": "Reino Unido",
+          "image": "/London.svg",
+          "flag": "/united kingdom.svg"
+        },
+        {
+          "id": 2,
+          "name": "Paris",
+          "country": "França",
+          "image": "/Paris.svg",
+          "flag": "/france.svg"
+        },
+        {
+          "id": 3,
+          "name": "Roma",
+          "country": "Itália",
+          "image": "/Rome.svg",
+          "flag": "/italy.svg"
+        },
+        {
+          "id": 4,
+          "name": "Praga",
+          "country": "República Tcheca",
+          "image": "/Prague.svg",
+          "flag": "/chech republic.svg"
+        },
+        {
+          "id": 5,
+          "name": "Amsterdã",
+          "country": "Holanda",
+          "image": "/Amsterda.svg",
+          "flag": "/nederlands.svg"
+        }
+      ],
+      "image": "/Europe.svg"
+    },
+    {
+      "id": 2,
+      "title": "América do Norte",
+      "subtitle": "O continente mais rico do mundo",
+      "description": "O continente americano é regionalizado em três partes, isso facilita o estudo das relações humanas existentes, é dividido em América do Sul, América Central e América do Norte. A América do Norte corresponde à parte norte do continente americano, é formada por três países, Estados Unidos, Canadá e México, que ocupam juntos uma área de 23,6 milhões de quilômetros quadrados",
+      "countries": 50,
+      "languages": 60,
+      "cidades100": [
+        {
+          "id": 1,
+          "name": "Los Angeles",
+          "country": "Estados Unidos",
+          "image": "https://estadosunidosbrasil.com.br/files/2013/05/losangeles1-635x411.jpg",
+          "flag": "https://i.pinimg.com/originals/8a/21/36/8a21365d3f89b97fa1ab4804b3adad1d.png"
+        },
+        {
+          "id": 2,
+          "name": "Cancun",
+          "country": "México",
+          "image": "https://www.dicasondeficar.com.br/wp-content/uploads/2016/09/Onde-ficar-em-Canc%C3%BAn-M%C3%A9xico.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Roma",
+          "country": "Itália",
+          "image": "/Rome.svg",
+          "flag": "/italy.svg"
+        },
+        {
+          "id": 4,
+          "name": "Praga",
+          "country": "República Tcheca",
+          "image": "/Prague.svg",
+          "flag": "/chech republic.svg"
+        },
+        {
+          "id": 5,
+          "name": "Amsterdã",
+          "country": "Holanda",
+          "image": "/Amsterda.svg",
+          "flag": "/nederlands.svg"
+        }
+      ],
+      "image": "https://img.theculturetrip.com/x/smart/wp-content/uploads/2019/04/north-america--andrew-zarivny-shutterstock.jpg"
+    }
+  ]
+}
