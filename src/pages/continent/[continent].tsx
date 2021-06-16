@@ -30,7 +30,7 @@ export default function Continent({ continent }: ContinentProps) {
     return (
         <>
             <Header />
-            <Flex w="100%" h={500} bg={`url('${continent.image}')`} align="end" justify="center">
+            <Flex w="100%" h={500} bg={`url('${continent.image}') no-repeat`} bgSize="cover" align="flex-end" justify="center">
                 <Box w={1160} mb="59px">
                     <Heading fontSize="5xl" fontWeight="600" color="#fff">{continent.title}</Heading>
                 </Box>
@@ -62,7 +62,7 @@ export default function Continent({ continent }: ContinentProps) {
                     {continent.cidades100.map(city => {
                         return (
                             <GridItem>
-                                <Image src={city.image} minHeight="171.63px"/>
+                                <Image src={city.image} h="171.63px" w="100%"/>
                                 <Flex justify="space-between" align="center" border="1px solid #ffba08" borderTop="0" padding="25px 24px">
                                     <Box>
                                         <Heading fontFamily="Barlow" fontSize="xl">{city.name}</Heading>

@@ -51,8 +51,8 @@
       "title": "América do Norte",
       "subtitle": "O continente mais rico do mundo",
       "description": "O continente americano é regionalizado em três partes, isso facilita o estudo das relações humanas existentes, é dividido em América do Sul, América Central e América do Norte. A América do Norte corresponde à parte norte do continente americano, é formada por três países, Estados Unidos, Canadá e México, que ocupam juntos uma área de 23,6 milhões de quilômetros quadrados",
-      "countries": 50,
-      "languages": 60,
+      "countries": 3,
+      "languages": 256,
       "cidades100": [
         {
           "id": 1,
@@ -70,27 +70,165 @@
         },
         {
           "id": 3,
-          "name": "Roma",
-          "country": "Itália",
-          "image": "/Rome.svg",
-          "flag": "/italy.svg"
+          "name": "Orlando",
+          "country": "Estados Unidos",
+          "image": "https://images.musement.com/cover/0002/59/orlando-skyline2-xxl-jpg_header-158692.jpeg?w=1200&h=630&q=95&fit=crop",
+          "flag": "https://i.pinimg.com/originals/8a/21/36/8a21365d3f89b97fa1ab4804b3adad1d.png"
         },
         {
           "id": 4,
-          "name": "Praga",
-          "country": "República Tcheca",
-          "image": "/Prague.svg",
-          "flag": "/chech republic.svg"
+          "name": "Toronto",
+          "country": "Canadá",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2f/e4/toronto.jpg?w=400&h=300&s=1",
+          "flag": "https://cdn.countryflags.com/thumbs/canada/flag-round-250.png"
         },
         {
           "id": 5,
-          "name": "Amsterdã",
-          "country": "Holanda",
-          "image": "/Amsterda.svg",
-          "flag": "/nederlands.svg"
+          "name": "Vancouver",
+          "country": "Canadá",
+          "image": "https://dmi.bladecdn.net/wp-content/uploads/2015/05/vancouver-no-inverno.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/canada/flag-round-250.png"
         }
       ],
-      "image": "https://img.theculturetrip.com/x/smart/wp-content/uploads/2019/04/north-america--andrew-zarivny-shutterstock.jpg"
+      "image": "https://globalcastaway.com/wp-content/uploads/2020/11/the-best-landmarks-in-north-america-1280x640.jpg"
+    },
+    {
+      "id": 3,
+      "title": "América do Sul",
+      "subtitle": "O lar de maravilhas como Machu Pichu e Floresta Amazonica",
+      "description": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população",
+      "countries": 13,
+      "languages": 456,
+      "cidades100": [
+        {
+          "id": 1,
+          "name": "Rio de Janeiro",
+          "country": "Brasil",
+          "image": "https://s2.glbimg.com/EjFgWZTAI2r2bdzZnZROgQ4V3BY=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/6/k/Mc8FdjTAaGxaRXLTspeQ/3756139071-7503cdbe19-o.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/brazil/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Lima",
+          "country": "Peru",
+          "image": "https://www.kayak.com.br/rimg/seo-res/travelhacker/v13/DEST_PERU_LIMA_VIEW_FROM_MIRAFLORES_shutterstock-portfolio_1047718252_Universal_Within_usage_period_57449.jpg?width=940&height=530",
+          "flag": "https://cdn.countryflags.com/thumbs/peru/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Santiago",
+          "country": "Chile",
+          "image": "https://www.dicasdeviagem.com/wp-content/uploads/2017/07/santiago-de-chile-itau-personallite.jpeg",
+          "flag": "https://cdn.countryflags.com/thumbs/chile/flag-round-250.png"
+        },
+        {
+          "id": 4,
+          "name": "Gramado",
+          "country": "Brazil",
+          "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-gramado-capa2019-04.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/brazil/flag-round-250.png"
+        },
+        {
+          "id": 5,
+          "name": "Cartagena",
+          "country": "Colombia",
+          "image": "https://cdn.getyourguide.com/img/location/5cced3a1a6f81.jpeg/88.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/colombia/flag-round-250.png"
+        }
+      ],
+      "image": "https://www.southamerica.travel/wp-content/uploads/2021/03/south-america-travel-tours-l312a.jpg"
+    },
+    {
+      "id": 4,
+      "title": "África",
+      "subtitle": "O local com maior diversidade cultural do planeta",
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
+      "countries": 54,
+      "languages": 2092,
+      "cidades100": [
+        {
+          "id": 1,
+          "name": "Cidade do Cabo",
+          "country": "África do Sul",
+          "image": "https://bethcoutinho.com.br/blog/wp-content/uploads/2019/09/Cape-Town.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/south-africa/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Cairo",
+          "country": "Egito",
+          "image": "https://cdn.britannica.com/s:575x450/47/75847-004-A4E8E4B1.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/egypt/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Lagos",
+          "country": "Nigéria",
+          "image": "https://s5.static.brasilescola.uol.com.br/be/2021/04/lagos.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/nigeria/flag-round-250.png"
+        },
+        {
+          "id": 4,
+          "name": "Casablanca",
+          "country": "Marrocos",
+          "image": "https://content.r9cdn.net/rimg/dimg/01/e0/e324ddd9-city-25947-16489e615dd.jpg?crop=true&width=500&height=300&xhint=1014&yhint=988",
+          "flag": "https://cdn.countryflags.com/thumbs/morocco/flag-round-250.png"
+        },
+        {
+          "id": 5,
+          "name": "Accra",
+          "country": "Gana",
+          "image": "https://img.theculturetrip.com/x/wp-content/uploads/2019/04/africa-ghana-acc.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/ghana/flag-round-250.png"
+        }
+      ],
+      "image": "https://www.descubraturismo.com.br/wp-content/uploads/2018/08/cultura-da-africa-do-sul-capa-1920x520.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ásia",
+      "subtitle": "O continente mais extenso do mundo",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering",
+      "countries": 50,
+      "languages": 2301,
+      "cidades100": [
+        {
+          "id": 1,
+          "name": "Hong Kong",
+          "country": "China",
+          "image": "https://ci-prod.imgix.net/upload/galeriadeimagens/00227097.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/china/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Bangkok",
+          "country": "Tailândia",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/45/1a/d0/other.jpg?w=900&h=-1&s=1",
+          "flag": "https://cdn.countryflags.com/thumbs/thailand/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Singapura",
+          "country": "Singapura",
+          "image": "https://www.relocatemagazine.com/media/images/iStock-629171318resized_18608_t12.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/singapore/flag-round-250.png"
+        },
+        {
+          "id": 4,
+          "name": "Macau",
+          "country": "China",
+          "image": "https://viagemegastronomia.cnnbrasil.com.br/wp-content/uploads/sites/5/2020/01/Macau-China.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/china/flag-round-250.png"
+        },
+        {
+          "id": 5,
+          "name": "Dubai",
+          "country": "Emirados Árabes Unidos",
+          "image": "https://www.segueviagem.com.br/wp-content/uploads/2020/07/shutterstock_151616084-1024x684.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/united-arab-emirates/flag-round-250.png"
+        }
+      ],
+      "image": "https://lufthansacc.com/wp-content/uploads/2018/02/Pacotes-para-Asia.jpg"
     }
   ]
 }

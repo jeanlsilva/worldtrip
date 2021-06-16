@@ -1,7 +1,7 @@
+import Link from 'next/link';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
-import { Flex, Heading, Text } from '@chakra-ui/react';
+import { Flex, Heading, Text, Box, useMediaQuery } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { GetStaticProps } from 'next';
 
 interface Continent {
     id: number;
@@ -21,23 +21,40 @@ interface ContinentsSlideProps {
 SwiperCore.use([Navigation, Pagination]);
 
 export function ContinentsSlide({ continents }: ContinentsSlideProps) {
+    const [minWidth1240] = useMediaQuery("(min-width: 1240px)");
+    const [maxWidth375] = useMediaQuery("(max-width: 375px)");
+
+    const width = minWidth1240 ? 1240 : '100%';
+
     return (
         <Swiper 
-            style={{ width:1240, height:450, marginTop:58, marginBottom:40 }} 
+            style={{ width, height:450, marginTop:58, marginBottom:40 }} 
             navigation
             pagination={{ clickable: true }}
         >
             {continents.map(continent => {
                 return (
-                    <SwiperSlide style={{
+                    <SwiperSlide key={continent.id} style={{
                         background: `url(${continent.image}) no-repeat`, 
                         backgroundSize: 'cover',
                     }}>
                         <Flex flexDir="column" align="center" justify="center" h="100%">
-                            <Heading fontSize="5xl" fontWeight="700" color="#dadada">{continent.title}</Heading>
-                            <Text fontSize="2xl" fontWeigth="700" color="#dadada" mt="1rem">
-                                {continent.subtitle}
-                            </Text>
+                            <Link href={`continent/${continent.id}`}>
+                                <a>
+                                    <Heading align="center" fontSize="5xl" fontWeight="700" color="#dadada">{continent.title}</Heading>
+                                    <Text
+                                        w={minWidth1240 ? 1240 : '75%'} 
+                                        align="center"
+                                        m="0 auto" 
+                                        fontSize="2xl" 
+                                        fontWeight="700" 
+                                        color="#dadada" 
+                                        mt="1rem"
+                                    >
+                                        {continent.subtitle}
+                                    </Text>
+                                </a>                                
+                            </Link>                            
                         </Flex>
                     </SwiperSlide>
                 );
